@@ -83,7 +83,7 @@ y = np.array([78.33,
               63.04,
               60.81])
 
-linear_regression = LinearRegression()
+linear_regression = LinearRegression() # creates a LinearRegression object 
 
 x = x.reshape(-1, 1)
 
@@ -93,11 +93,10 @@ y_predicted = linear_regression.predict(x)
 
 plt.scatter(x, y)
 plt.plot(x, y_predicted, color="blue")
-# plt.show()
+plt.show()
 
 print(linear_regression.coef_)
 print(linear_regression.intercept_)
 
 # y = 0.2733908x + 67.11163857012399
 
-print("Hello")
