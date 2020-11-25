@@ -8,7 +8,7 @@ In order to test my hypothesis that per capita GDP has a positive impact on life
 
 ![picture](eco250_linear.png)
 
-And this is the estimated relationship:
+The estimated relationship:
 
 Life expectancy = 67.112+0.273×GDP
 
