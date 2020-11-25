@@ -4,7 +4,7 @@ I will examine the impact of per capita GDP on life expectancy at birth using a 
 
 I obtained my data from the World Bank’s database. The data consists of a random sample of 40 countries. Two variables for each country include their per capita GDP (measured in current international dollars) and life expectancy (measured in total years) in 2017. 
 
-In order to test my hypothesis that per capita GDP has a positive impact on life expectancy, I estimate a simple linear regression model:
+In order to test my hypothesis that per capita GDP has a positive impact on life expectancy, I estimate a simple linear regression model using the numpy, matplotlib, and sklearn Python libraries:
 
 ![picture](eco250_linear.png)
 
